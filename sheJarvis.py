@@ -209,6 +209,7 @@ def Hello():
     hour = int(datetime.datetime.now().hour)
     if hour >= 0 and hour < 12:
         speak("good morning")
+	print("hii")
         return "Good morning"
     elif hour >= 12 and hour < 17:
         speak("good afternoon")
